@@ -10,25 +10,73 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <div id="totalScreen">
-        <!-- Cabeçalho -->
-        <header>
-            <nav id="container"></nav>
-        </header>
+    <!-- Cabeçalho -->
+    <header>
+        <nav id="container">
+            <div class="logo">CalcTools</div>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="#tools"><i class="fas fa-calculator"></i> Ferramentas</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> Sobre</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- Conteúdo principal -->
-        <main>
-            <section>
+    <!-- Conteúdo principal -->
+    <main>
+        <section class="hero-section">
+            <h1 class="hero-title">Ferramentas de Cálculo Online</h1>
+            <p class="hero-subtitle">Simplifique seus cálculos com nossas ferramentas profissionais e gratuitas. Rápido, preciso e sempre disponível.</p>
+        </section>
 
-            </section>
+        <section class="tools-grid">
+            <div class="tool-card">
+                <div class="tool-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3 class="tool-title">Calculadora Básica</h3>
+                <p class="tool-description">Operações matemáticas essenciais com interface intuitiva e resultados precisos.</p>
+            </div>
 
-        </main>
+            <div class="tool-card">
+                <div class="tool-icon">
+                    <i class="fas fa-percent"></i>
+                </div>
+                <h3 class="tool-title">Calculadora de Porcentagem</h3>
+                <p class="tool-description">Calcule porcentagens, descontos e aumentos de forma rápida e simples.</p>
+            </div>
 
-        <!-- Rodapé -->
-        <footer>
-            <p>&copy; 2025 Calculadora. Todos os direitos reservados.</p>
-        </footer>
-    </div>    
+            <div class="tool-card">
+                <div class="tool-icon">
+                    <i class="fas fa-coins"></i>
+                </div>
+                <h3 class="tool-title">Calculadora Financeira</h3>
+                <p class="tool-description">Juros compostos, financiamentos e investimentos ao seu alcance.</p>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-icon">
+                    <i class="fas fa-ruler"></i>
+                </div>
+                <h3 class="tool-title">Conversor de Unidades</h3>
+                <p class="tool-description">Converta medidas, pesos, temperaturas e muito mais instantaneamente.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacidade</a>
+                <a href="#terms">Termos</a>
+                <a href="#support">Suporte</a>
+                <a href="#github">GitHub</a>
+            </div>
+            <p class="footer-text">&copy; 2025 CalcTools. Todos os direitos reservados.</p>
+        </div>
+    </footer>
     
     <!-- Scripts -->
     <script type="module" src="/public/js/mains.js"></script>
